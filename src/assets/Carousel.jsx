@@ -50,6 +50,10 @@ const Carousel = ({ slides }) => {
                 top="50%"
                 transform="translateY(-50%)"
                 zIndex="1"
+                bg={'transparent'}
+                fontWeight={900}
+                fontSize={"50px"}
+                _hover={{}}
             >
                 <IoIosArrowBack />
             </Button>
@@ -60,6 +64,11 @@ const Carousel = ({ slides }) => {
                 top="50%"
                 transform="translateY(-50%)"
                 zIndex="1"
+                bg={'transparent'}
+                fontWeight={900}
+                fontSize={"50px"}
+                _hover={{}}
+                
             >
                 <IoIosArrowForward />
             </Button>
